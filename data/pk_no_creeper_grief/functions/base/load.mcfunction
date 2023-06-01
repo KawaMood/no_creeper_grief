@@ -34,9 +34,6 @@ execute unless data storage pk.common:data Datapacks[{Name:"No Creeper Grief"}] 
 scoreboard objectives add pk.temp dummy
 scoreboard objectives add pk.value dummy
 
-# Define objective that are specific to the current data pack
-scoreboard objectives add pk.no_cr.id dummy
-
 # ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― 
 # Updates:
 # ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
