@@ -1,0 +1,14 @@
+#> pk_no_creeper_grief:base/uninstall/helpers/remove_common_features
+# Remove all features common to each KawaMood data packs
+# /!\ Do not run this function manually!
+
+# Uninstall packages
+function pk_no_ender_pearl_damage:packages/player_id/uninstall
+
+# Remove pk.common.data storage data
+data remove storage pk.common:data Datapacks
+data remove storage pk.common:data Temp
+
+# Remove scores
+scoreboard objectives remove pk.value
+scoreboard objectives remove pk.temp
