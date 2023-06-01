@@ -37,7 +37,7 @@ scoreboard objectives add pk.value dummy
 # ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― 
 # Updates:
 # ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-execute unless score $pk.no_cr.version pk.value matches 1 run function pk_no_creeper_grief:base/update/start
+execute unless score $pk.no_cr.version pk.value matches 2 run function pk_no_creeper_grief:base/update/start
 
 # ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― 
 # Logs:
