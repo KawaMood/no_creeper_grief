@@ -8,6 +8,6 @@ execute if entity @s[tag=pk.no_cr.powered] run data modify entity @e[type=creepe
 tag @e[type=creeper,tag=pk.temp.current.creeper,distance=..2,limit=1] remove pk.temp.current.creeper
 
 # Store and change mobGriefing
-execute unless score $pk.gamerule.mob_griefing.saved pk.value matches 1 store success score $pk.gamerule.mob_griefing.previous_value pk.value run gamerule mobGriefing false
-scoreboard players set $pk.gamerule.mob_griefing.saved pk.value 1
+execute unless score $gamerule.mob_griefing.saved pk.value matches 1 store success score $gamerule.mob_griefing.previous_value pk.value run gamerule mobGriefing false
+scoreboard players set $gamerule.mob_griefing.saved pk.value 1
 schedule function pk_no_creeper_grief:mode/proper/restore_gamerule 2t replace

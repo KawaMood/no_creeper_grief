@@ -12,6 +12,6 @@ data remove entity @s Effects[{Id:26,Amplifier:17b}]
 execute unless data entity @s Effects[{}] run kill @s
 
 # Store and change mobGriefing
-execute unless score $pk.gamerule.mob_griefing.saved pk.value matches 1 store success score $pk.gamerule.mob_griefing.previous_value pk.value run gamerule mobGriefing false
-scoreboard players set $pk.gamerule.mob_griefing.saved pk.value 1
+execute unless score $gamerule.mob_griefing.saved pk.value matches 1 store success score $gamerule.mob_griefing.previous_value pk.value run gamerule mobGriefing false
+scoreboard players set $gamerule.mob_griefing.saved pk.value 1
 schedule function pk_no_creeper_grief:mode/safe/restore_gamerule 2t replace
