@@ -4,7 +4,7 @@
 summon creeper ~ ~ ~ {ignited:true,Fuse:0s,Tags:["pk.no_cr.ignore","pk.temp.current.creeper"],Silent:1b}
 
 # A powered creeper is represented by luck's effect being ambient
-data modify entity @e[type=creeper,tag=pk.temp.current.creeper,distance=..0.1,limit=1] powered set from entity @s effects[{id:"minecraft:luck"}].ambient
+data modify entity @e[type=creeper,tag=pk.temp.current.creeper,distance=..0.1,limit=1] powered set from entity @s potion_contents.custom_effects[{id:"minecraft:luck"}].ambient
 tag @e[type=creeper,tag=pk.temp.current.creeper,distance=..0.1,limit=1] remove pk.temp.current.creeper
 
 # Clean AEC
