@@ -11,7 +11,7 @@ tag @e[type=creeper,tag=pk.temp.current.creeper,distance=..0.1,limit=1] remove p
 data remove entity @s potion_contents.custom_effects[{id:"minecraft:luck",amplifier:17b}]
 execute unless data entity @s potion_contents.custom_effects[-1] run kill @s
 
-# Store and change mobGriefing
-execute unless score $gamerule.mob_griefing.saved pk.value matches 1 store success score $gamerule.mob_griefing.previous_value pk.value run gamerule mobGriefing false
+# Store and change mob_griefing
+execute unless score $gamerule.mob_griefing.saved pk.value matches 1 store success score $gamerule.mob_griefing.previous_value pk.value run gamerule mob_griefing false
 scoreboard players set $gamerule.mob_griefing.saved pk.value 1
 schedule function pk_no_cr:mode/safe/restore_gamerule 2t replace

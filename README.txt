@@ -3,7 +3,7 @@ This data pack has been made by KawaMood
 ―――――――――――――――――――――――――――――――――――――――――
 
 Only websites I currently use to upload my content are Modrinth (modrinth.com), Planet Minecraft (planetminecraft.com) and my own host (kawamood.com).
-If this data pack has been downloaded from another website, that means my content has been stolen, so be careful with its content: this data pack can be outdated, or potentially even contains malicious files. Please be sure to download it from one of the websites/platforms stated in the "Links & Contact" section bellow and nowhere else.
+If this data pack has been downloaded from another website, that means my content has been stolen, so be careful with its content: this data pack can be outdated, or potentially even contains malicious files. Please be sure to download it from one of the websites/platforms stated in the "Links & Contact" section below and nowhere else.
 
 ―――――――――――――――――――――――――――――――――――――――――
 LICENCE
