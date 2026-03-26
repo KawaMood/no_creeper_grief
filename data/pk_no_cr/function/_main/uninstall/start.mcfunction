@@ -7,4 +7,4 @@ function pk_no_cr:_main/uninstall/remove_specific_features
 execute unless data storage pk:common installed_datapack[{}] unless data storage pk.common:data Datapacks[{}] run function pk_no_cr:_main/uninstall/remove_all_features
 
 # Logs
-tellraw @s [{"text": "Uninstalled ","color": "yellow"},{"text": "KawaMood's No Creeper Grief ","color": "aqua","bold": true},{"text": " successfully"},{"text": "\nYou can now safely remove this data pack from the folder of your world","color": "yellow"}]
+tellraw @s [{text:"Uninstalled ",color:"yellow"},{text:"KawaMood's No Creeper Grief ",color:"aqua","bold": true},{text:" successfully"},{text:"\nYou can now safely remove this data pack from the folder of your world",color:"yellow"}]
